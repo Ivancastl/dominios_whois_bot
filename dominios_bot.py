@@ -99,13 +99,13 @@ def buscar_whois(dominio):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "👋 ¡Bienvenido al bot de búsqueda de dominios!\n\n"
-        "Este bot te permite consultar **dominios registrados** en una fecha específica o dentro de un rango de fechas. 🌐\n\n"
+        "Este bot te permite consultar dominios registrados en una fecha específica o dentro de un rango de fechas. 🌐\n\n"
         "Por favor, ingresa una fecha o un rango de fechas en el siguiente formato:\n\n"
-        "📅 **Fecha individual:** `AAAAMMDD`\n"
-        "📅 **Rango de fechas:** `AAAAMMDD-AAAAMMDD`\n\n"
+        "📅 Fecha individual: `AAAAMMDD`\n"
+        "📅 Rango de fechas: `AAAAMMDD-AAAAMMDD`\n\n"
         "Ejemplos:\n"
-        "`20240115` → Dominios registrados ese día\n"
-        "`20240101-20240131` → Dominios registrados durante enero 2024\n\n"
+        "20240115 → Dominios registrados ese día\n"
+        "20240101-20240131 → Dominios registrados durante enero 2024\n\n"
         "⌛ Esperando tu entrada..."
     )
     return FECHA
