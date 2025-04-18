@@ -2,5 +2,5 @@ python-telegram-bot
 requests
 pandas
 beautifulsoup4
-whois
+python-whois
 openpyxl

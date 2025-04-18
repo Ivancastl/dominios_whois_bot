@@ -1,6 +1,6 @@
 # Bot de Búsqueda de Dominios por Fecha 📆🌐
 
-Este bot de Telegram permite consultar dominios registrados en una fecha específica o dentro de un rango de fechas. Ideal para tareas de OSINT y análisis de tendencias de registro.
+Este bot de Telegram permite consultar dominios registrados en una fecha específica o dentro de un rango de fechas mediante una consulta WHOIS y enviar el reporte al bot. Es ideal para tareas de OSINT y análisis de tendencias en los registros.
 
 ## 🚀 ¿Qué hace?
 
